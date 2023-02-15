@@ -1,0 +1,31 @@
+body{
+    color: rgb(209, 142, 7);
+}
+.navbar-nav{
+    float: none;
+    margin-left: 30%;
+    font-size: 20px;
+    justify-content: center;
+    /* margin-left: 50%;
+    position: absolute; */
+    /* float-top: 50%;
+    float-left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+  nav ul li{
+    padding:0 15px 0 15px;
+  }
+  nav ul li:hover{
+    color:rgb(14, 13, 13);
+    background-color: rgb(111, 199, 199);
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+      float: none;
+      display: block;
+    }
+}
+ .style-1{
+    list-style: none;
+    text-decoration: none;
+ }
